@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "64cac0391920343d65cb2e6b"
+  },
+  "userId": "1",
+  "course": "fsd",
+  "attendance": "80",
+  "mentor": "sathish",
+  "month": "15-October"
+},
+{
+  "_id": {
+    "$oid": "64cac08a1920343d65cb2e6e"
+  },
+  "userId": "2",
+  "course": "fsd",
+  "attendance": "90",
+  "mentor": "sathish",
+  "month": "17-October"
+},
+{
+  "_id": {
+    "$oid": "64cac09c1920343d65cb2e70"
+  },
+  "userId": "3",
+  "course": "fsd",
+  "attendance": "70",
+  "mentor": "sathish",
+  "month": "20-October"
+},
+{
+  "_id": {
+    "$oid": "64cac0aa1920343d65cb2e72"
+  },
+  "userId": "4",
+  "course": "fsd",
+  "attendance": "90",
+  "mentor": "Ramya",
+  "month": "30-October"
+},
+{
+  "_id": {
+    "$oid": "64cac0b91920343d65cb2e74"
+  },
+  "userId": "5",
+  "course": "fsd",
+  "attendance": "60",
+  "mentor": "Ramya",
+  "month": "21-October"
+},
+{
+  "_id": {
+    "$oid": "64cac0c51920343d65cb2e76"
+  },
+  "userId": "6",
+  "course": "fsd",
+  "attendance": "40",
+  "mentor": "sathish",
+  "month": "31-October"
+}]
