@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "64cabe6a1920343d65cb2e5e"
+  },
+  "userId": "1",
+  "course": "fsd",
+  "problems": "120",
+  "month": "15-October"
+},
+{
+  "_id": {
+    "$oid": "64cabe791920343d65cb2e60"
+  },
+  "userId": "2",
+  "course": "fsd",
+  "problems": "110",
+  "month": "17-October"
+},
+{
+  "_id": {
+    "$oid": "64cabe8e1920343d65cb2e62"
+  },
+  "userId": "3",
+  "course": "fsd",
+  "problems": "150",
+  "month": "20-October"
+},
+{
+  "_id": {
+    "$oid": "64cabe9d1920343d65cb2e64"
+  },
+  "userId": "4",
+  "course": "fsd",
+  "problems": "160",
+  "month": "30-October"
+},
+{
+  "_id": {
+    "$oid": "64cabea91920343d65cb2e66"
+  },
+  "userId": "5",
+  "course": "fsd",
+  "problems": "90",
+  "month": "21-October"
+},
+{
+  "_id": {
+    "$oid": "64cabeb21920343d65cb2e68"
+  },
+  "userId": "6",
+  "course": "fsd",
+  "problems": "160",
+  "month": "31-October"
+}]

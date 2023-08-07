@@ -1,0 +1,74 @@
+Design database for Zen class programme
+users Table:
+  1.userId
+  2.userName
+  3.course
+  4.codekataproblems
+  5.attendance
+  6.task
+  7.company_drives
+  8.mentor
+  9.month
+
+codekata Table:
+  1.userId
+  2.course
+  3.problems solved
+  4.month
+
+
+attendance Table: 
+  1.userId
+  2.course
+  3.attendance
+  4.mentor
+  5.month
+
+topics Table:
+   1.userId
+   2.course
+   2.topics
+   3.mentor
+   4.month
+
+tasks Table:
+   1.userId
+   2.course
+   3.taskcompleted
+   4.month
+
+company_drives Table:
+    1.userId
+    2.course
+    3.company_drives attended
+    4.month
+
+mentors Table:
+    1.mentorId
+    2.userId
+    3.topics
+    4.month
+    
+
+Find all the topics and tasks which are thought in the month of October
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+Find all the company drives and students who are appeared for the placement.
+Find the number of problems solved by the user in codekata
+Find all the mentors with who has the mentee's count more than 15
+Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020

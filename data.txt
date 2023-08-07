@@ -1,0 +1,53 @@
+attendance Table: 
+  1.userId
+  2.course
+  3.attendance
+  4.mentor
+  5.month
+  [{
+  "userId": "1",
+  "course": "fsd",
+  "attendance":"80",
+  "mentor":"sathish",
+  "month": "15-October"
+},
+{
+   
+  "userId": "2",
+  "course": "fsd",
+  "attendance":"90",
+  "mentor":"sathish",
+  "month": "17-October"
+},
+{
+   
+  "userId": "3",
+  "course": "fsd",
+  "attendance":"70",
+  "mentor":"sathish",
+  "month": "20-October"
+},
+{
+  
+  "userId": "4",
+  "course": "fsd",
+ "attendance":"90",
+  "mentor":"Ramya",
+  "month": "30-October"
+},
+{
+   
+  "userId": "5",
+  "course": "fsd",
+   "attendance":"60",
+  "mentor":"Ramya",
+  "month": "21-October"
+},
+{
+   
+  "userId": "6",
+  "course": "fsd",
+   "attendance":"40",
+  "mentor":"sathish",
+  "month": "31-October"
+}]
