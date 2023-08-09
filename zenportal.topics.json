@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "64d0c87ac5baabe9c79ece60"
+  },
+  "userid": "1",
+  "course": "fsd",
+  "topics": "html",
+  "mentor": "sathish",
+  "month": "15-oct-2023"
+},
+{
+  "_id": {
+    "$oid": "64d0c89bc5baabe9c79ece62"
+  },
+  "userid": "2",
+  "course": "fsd",
+  "topics": "html,css",
+  "mentor": "sathish",
+  "month": "17-oct-2023"
+},
+{
+  "_id": {
+    "$oid": "64d0c8c2c5baabe9c79ece64"
+  },
+  "userid": "3",
+  "course": "fsd",
+  "topics": "react",
+  "mentor": "Ramya",
+  "month": "18-oct-2023"
+},
+{
+  "_id": {
+    "$oid": "64d0c957c5baabe9c79ece66"
+  },
+  "userid": "4",
+  "course": "fsd",
+  "topics": "html,react",
+  "mentor": "sathish",
+  "month": "20-oct-2023"
+},
+{
+  "_id": {
+    "$oid": "64d0c957c5baabe9c79ece67"
+  },
+  "userid": "5",
+  "course": "fsd",
+  "topics": "mongodb",
+  "mentor": "ramya",
+  "month": "25-oct-2023"
+},
+{
+  "_id": {
+    "$oid": "64d0c957c5baabe9c79ece68"
+  },
+  "userid": "6",
+  "course": "fsd",
+  "topics": "node.js",
+  "mentor": "sathish",
+  "month": "30-oct-2023"
+}]

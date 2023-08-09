@@ -25,6 +25,7 @@ attendance Table:
   5.month
 
 topics Table:
+   1.topicid
    1.userId
    2.course
    2.topics
@@ -32,10 +33,11 @@ topics Table:
    4.month
 
 tasks Table:
-   1.userId
-   2.course
-   3.taskcompleted
-   4.month
+   1.taskid
+   2.userId
+   3.course
+   4.taskcompleted
+   5.month
 
 company_drives Table:
     1.userId
@@ -46,8 +48,9 @@ company_drives Table:
 mentors Table:
     1.mentorId
     2.userId
-    3.topics
-    4.month
+    3.mentees
+    4.topics
+    5.month
     
 
 Find all the topics and tasks which are thought in the month of October
