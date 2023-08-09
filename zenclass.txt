@@ -56,22 +56,106 @@ mentors Table:
 Find all the topics and tasks which are thought in the month of October
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+db.getCollection('topics').aggregate(
+  [
+    {
+      $lookup: {
+        from: 'task',
+        localField: 'taskidid',
+        foreignField: 'topicid',
+        as: 'result'
+      }
+    }
+  ],
+  { maxTimeMS: 60000, allowDiskUse: true }
+);
 
 
 Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+filter: {"month":"October"} 
+{
+  "_id": {
+    "$oid": "64d09a53ef486ff1c44ec351"
+  },
+  "userId": "1",
+  "course": "fsd",
+  "companydrive": "10",
+  "month": "October"
+}
+{
+  "_id": {
+    "$oid": "64d09ae8ef486ff1c44ec355"
+  },
+  "userId": "3",
+  "course": "fsd",
+  "companydrive": "1",
+  "month": "October"
+}
+
+
 Find all the company drives and students who are appeared for the placement.
+
+db.getCollection('company-drive').aggregate(
+  [
+    {
+      $lookup: {
+        from: 'user',
+        localField: 'userid',
+        foreignField: 'companyid ',
+        as: 'result'
+      }
+    }
+  ],
+  { maxTimeMS: 60000, allowDiskUse: true }
+);
+
+
 Find the number of problems solved by the user in codekata
+
+db.codekata.find().forEach(function(doc){
+print(doc.userId+" "+doc.problems)
+});
+ 
+
+1 120
+2 110
+3 150
+4 160
+5 90
+6 160
+zenportal
+
+
+
+
+
+
+
 Find all the mentors with who has the mentee's count more than 15
+db.mentor.find().forEach(function(doc){
+print(doc.mentees>15)
+});
+ 
+
+false
+true
+false
+ 
+ {
+  "_id": {
+    "$oid": "64d0c5d0c5baabe9c79ece50"
+  },
+  "mentorid": "2",
+  "userid": "1",
+  "mentees": "17",
+  "topics": "javascript,css",
+  "month": "18-oct-2023"
+}
+
+
+
+
 Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+display no result

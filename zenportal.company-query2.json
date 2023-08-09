@@ -5,8 +5,7 @@
   "userId": "1",
   "course": "fsd",
   "companydrive": "10",
-  "month": "October",
-  "companyid": "01"
+  "month": "October"
 },
 {
   "_id": {
@@ -15,8 +14,7 @@
   "userId": "2",
   "course": "fsd",
   "companydrive": "3",
-  "month": "November",
-  "companyid": "02"
+  "month": "November"
 },
 {
   "_id": {
@@ -25,8 +23,7 @@
   "userId": "3",
   "course": "fsd",
   "companydrive": "1",
-  "month": "October",
-  "companyid": "03"
+  "month": "October"
 },
 {
   "_id": {
@@ -35,6 +32,5 @@
   "userId": "4",
   "course": "fsd",
   "companydrive": "6",
-  "month": "November",
-  "companyid": "04"
+  "month": "November"
 }]
